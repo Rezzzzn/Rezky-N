@@ -1,0 +1,109 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    margin: 0;
+    padding: 0;
+}
+.dashboard {
+    background: #333;
+    color: #fff;
+    height: 100vh;
+    padding: 20px;
+    width: 250px;
+    position: fixed;
+}
+.dashboard ul {
+    list-style: none;
+    padding: 0;
+}
+.dashboard ul li {
+    margin-bottom: 10px;
+}
+.dashboard a {
+    color: #fff;
+    text-decoration: none;
+}
+.main-content {
+    margin-left: 270px;
+    padding: 20px;
+}
+</style>
+</head>
+<body>
+<div class="dashboard">
+<h1>Admin Dashboard</h1>
+<ul>
+    <li><a href="#">Beranda</a></li>
+    <li><a href="#">Pengguna</a></li>
+    <li><a href="#">Produk</a></li>
+    <li><a href="#">Pesanan</a></li>
+    <li><a href="#">Pengaturan</a></li>
+</ul>
+</div>
+<div class="main-content">
+<h2>Selamat datang, Admin!</h2>
+<p>Selamat datang di dasbor admin. Di sini Anda dapat mengelola pengguna, produk, pesanan, dan pengaturan situs web.</p>
+</div>
+</body>
+</html>
+Contoh di atas menciptakan dasbor admin dengan menu navigasi sederhana di sebelah kiri (sidebar) dan area konten utama di sebelah kanan. Anda dapat mengganti tautan menu dan mengatur tampilan dasbor sesuai kebutuhan Anda.
+
+Anda juga bisa memperluas dan meningkatkan desain dasbor admin ini dengan menambahkan lebih banyak elemen HTML, menggunakan framework CSS seperti Bootstrap, atau menambahkan interaksi JavaScript untuk membuat dasbor lebih interaktif.
+
+
+
+
+User
+buatkan lebih bagis lagi sama beri kotak kotak yang biasanya di paje admin
+ChatGPT
+Tentu, saya bisa memperluas contoh dasbor admin dengan menambahkan beberapa kotak yang biasanya ditemui dalam dasbor admin. Di bawah ini adalah contoh yang lebih lengkap:
+
+html
+Copy code
+<!DOCTYPE html>
+<html>
+<head>
+<title>Dashboard Admin</title>
+<style>
+/* CSS Dasbor */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    margin: 0;
+    padding: 0;
+}
+.dashboard {
+    background: #333;
+    color: #fff;
+    height: 100vh;
+    padding: 20px;
+    width: 250px;
+    position: fixed;
+}
+.dashboard h1 {
+    margin: 0;
+    padding: 0;
+    font-size: 24px;
+}
+.dashboard ul {
+    list-style: none;
+    padding: 0;
+}
+.dashboard ul li {
+    margin-bottom: 10px;
+}
+.dashboard a {
+    color: #fff;
+    text-decoration: none;
+}
+.main-content {
+    margin-left: 270px;
+    padding: 20px;
+}
+/* Kotak Dasbor */
+.dashboard-box {
+    background: #fff;
+    padding: 20px;
+    margin-bottom: 20px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
